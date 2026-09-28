@@ -1,0 +1,47 @@
+# Entornos virtuales y dependencias
+.venv/
+venv/
+env/
+node_modules/
+
+# Archivos compilados y cachés
+__pycache__/
+*.py[cod]
+*.pyc
+.cache/
+.pytest_cache/
+
+# Variables de entorno y secretos
+.env
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+
+# Bases de datos locales
+*.sqlite3
+*.db
+
+# Registros y temporales
+*.log
+*.tmp
+*.bak
+
+# Instaladores descargados
+*.exe
+*.msi
+
+# Paquetes generados
+dist/
+build/
+*.zip
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
